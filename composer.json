@@ -1,5 +1,5 @@
 {
-  "name": "t3up/t3up-onepager",
+  "name": "t3as/t3up-onepager",
   "type": "typo3-cms-extension",
   "description": "T3UP - Onepager",
   "authors": [
@@ -16,7 +16,7 @@
     "t3up"
   ],
   "require": {
-    "typo3/cms-core": "^9.5 || ^10.4"
+    "typo3/cms-core": "^10.4 || ^11.5"
   },
   "extra": {
     "typo3/cms": {
