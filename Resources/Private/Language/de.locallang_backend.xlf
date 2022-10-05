@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2014-09-22T11:44:12Z" product-name="t3up_onepager">
+ 	<header/>
+		<body>
+		
+			/* -- BACKENDLAYOUTS ------------------------- */
+		    
+			<trans-unit id="fullpage">
+			     <source>Fullpage 100%</source>
+			     <target state="translated">100% Breite</target>
+		    </trans-unit>	
+		    
+			<trans-unit id="OnePagerLayout">
+			     <source>OnePager Layout</source>
+			     <target state="translated">OnePager-Layout komplette Breite</target>
+		    </trans-unit>
+
+			<trans-unit id="containerhandle">
+			     <source>Handle as a container</source>
+			     <target state="translated">Verhält sich wie ein Container</target>
+		    </trans-unit>
+
+			<trans-unit id="container">
+			     <source>Container</source>
+			     <target state="translated">Container</target>
+		    </trans-unit>	
+		    
+		</body>
+	</file>
+</xliff>

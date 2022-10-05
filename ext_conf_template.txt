@@ -1,0 +1,4 @@
+
+
+# cat=PageTS; type=boolean; label=Onepager Layout
+OnePagerLayout 	        = 0

@@ -1,0 +1,11 @@
+page.10 {
+	templateRootPaths {
+		113 						= EXT:t3up_onepager/Resources/Private/Templates/Fluidtemplates/Templates/
+	}
+}
+
+
+# Fluid_styled_content Elements ###########################################################
+lib.contentElement {           
+    layoutRootPaths.10                      = EXT:t3up_onepager/Resources/Private/Templates/ContentElement/Layouts/
+}

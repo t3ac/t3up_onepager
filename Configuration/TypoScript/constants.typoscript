@@ -1,0 +1,6 @@
+page {
+    typography {
+        h1.padding = 0
+     }
+}
+   
