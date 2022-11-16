@@ -8,8 +8,8 @@
 $EM_CONF[$_EXTKEY] = [
     'title'            => 'T3UP - OnePager',
     'description'      => 'Headerimage as a content element',
-    'version'          => '0.5.0',
-    'state'            => 'beta',
+    'version'          => '10.0.0',
+    'state'            => 'stable',
     'category'         => 'fe',
     'author'           => 'Michael Lang',
     'author_email'     => 'michael.lang@h-da.de',
@@ -19,7 +19,7 @@ $EM_CONF[$_EXTKEY] = [
     'clearcacheonload' => true,
     'constraints'      => [
         'depends'   => [
-            'typo3' => '10.4.01-10.4.99',
+            'typo3' => '10.4.0-11.5.99',
         ],
         'conflicts' => [],
         'suggests'  => [],

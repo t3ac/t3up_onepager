@@ -1,0 +1,42 @@
+
+.onePager .content > div:not(.full)                     {padding-left: .75rem; padding-right: .75rem;}      
+
+
+.frame-darkgrey 										{background: $darkgrey; color: #fff; }
+.frame-darkgrey {
+	h2,h3,h4,a											{color: #fff;} 
+}
+	
+.frame-lightgrey 										{background: $lightgrey; color: $baseTextColor; }
+.frame-lightgrey {
+	h2,h3,h4,a											{color: $baseTextColor;} 
+}
+
+.frame-grey 									    	{background: $grey; color: #fff; }
+.frame-grey {
+	h2,h3,h4,a											{color: #fff;} 
+}
+
+.frame-2cols.frame-white,
+.frame-3cols.frame-white,
+.frame-4cols.frame-white                                {padding: 0;}
+
+.frame-2cols.frame-colored,
+.frame-3cols.frame-colored,
+.frame-4cols.frame-colored                              {padding: 0;}
+                 
+
+
+@media screen and (min-width: 992px) {
+	.onePager {
+		.frame-2cols,
+	    .frame-3cols,
+	    .frame-4cols{
+			 .row                                               {/*margin-left: 0; margin-right: 0;*/}
+		
+		}
+
+	}
+}
+
+

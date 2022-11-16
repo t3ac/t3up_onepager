@@ -9,3 +9,14 @@ page.10 {
 lib.contentElement {           
     layoutRootPaths.10                      = EXT:t3up_onepager/Resources/Private/Templates/ContentElement/Layouts/
 }
+
+page.includeCSS{
+    t3upOnepager                         = {$page.scss.scsst3upOnepager}   
+    t3upOnepager.if.isTrue               = {$page.scss.scsst3upOnepager}  
+    t3upOnepager.outputStyle             = compressed    
+}
+
+
+plugin.tx_wsscss.variables {
+    lightgrey                                 = {$page.color.lightgrey}
+}

@@ -4,10 +4,19 @@
         <f:then>
             <f:if condition="{data.container}">
                 <f:then>
-		            <div id="c{data.uid}" class="frame-type-{data.CType} {f:if(condition: data.frame_class, then: 'frame-{data.frame_class}')} {f:if(condition: data.layout, then: 'frame-layout-{data.layout}')}
-		                {f:if(condition: data.space_before_class, then: 'frame-space-before-{data.space_before_class}')} {f:if(condition: data.space_after_class, then: 'frame-space-after-{data.space_after_class}')}">
+		            <div id="c{data.uid}" class="w-100 frame-{data.CType} full
+		            	{f:if(condition: data.frame_class, then: 'frame-{data.frame_class}')} 
+		            	{f:if(condition: data.layout, then: 'frame-layout-{data.layout}')}
+		                {f:if(condition: data.space_before_class, then: 'frame-space-before-{data.space_before_class}')} 
+		                {f:if(condition: data.space_after_class, then: 'frame-space-after-{data.space_after_class}')}">
 		                
-		                <div class="container {f:if(condition: '{data.imagecols } > 1', then: 'ic-{data.imagecols}')} {f:if(condition: data.padding_before_class, then: 'frame-padding-before-{data.padding_before_class}')} {f:if(condition: data.padding_after_class, then: 'frame-padding-after-{data.padding_after_class}')}">
+		                <div class="container {f:if(condition: '{data.imagecols } > 1', then: 'ic-{data.imagecols}')} 
+		                	{f:if(condition: data.padding_before_class, then: 'frame-padding-before-{data.padding_before_class}')} 
+		                	{f:if(condition: data.padding_after_class, then: 'frame-padding-after-{data.padding_after_class}')}">
+			                <f:if condition="{data._LOCALIZED_UID}">
+			                    <a id="c{data._LOCALIZED_UID}"></a>
+			                </f:if>
+			                
 			                <f:if condition="{data._LOCALIZED_UID}">
 			                    <a id="c{data._LOCALIZED_UID}"></a>
 			                </f:if>
@@ -28,13 +37,20 @@
 			                
 			                <f:render section="After" optional="true">
 			                    <f:render partial="DropIn/After/All" arguments="{_all}" />
-			                </f:render>
+			                </f:render> 
 			           </div>     
 		            </div>
 		          </f:then>  
 		          <f:else>
-		            <div id="c{data.uid}" class="frame-type-{data.CType} {f:if(condition: data.frame_class, then: 'frame-{data.frame_class}')} {f:if(condition: '{data.imagecols } > 1', then: 'ic-{data.imagecols}')} {f:if(condition: data.layout, then: 'frame-layout-{data.layout}')}
-		                {f:if(condition: data.space_before_class, then: 'frame-space-before-{data.space_before_class}')} {f:if(condition: data.space_after_class, then: 'frame-space-after-{data.space_after_class}')}">
+		            <div id="c{data.uid}" class="w-100 frame-{data.CType}
+		            	{f:if(condition: '{data.imagecols } > 1', then: 'ic-{data.imagecols}')} 
+		            	{f:if(condition: data.frame_class, then: 'frame-{data.frame_class}')} 
+		            	{f:if(condition: data.layout, then: 'frame-layout-{data.layout}')}
+		                {f:if(condition: data.space_before_class, then: 'frame-space-before-{data.space_before_class}')} 
+		                {f:if(condition: data.space_after_class, then: 'frame-space-after-{data.space_after_class}')}
+		                {f:if(condition: data.padding_before_class, then: 'frame-padding-before-{data.padding_before_class}')} 
+		                {f:if(condition: data.padding_after_class, then: 'frame-padding-after-{data.padding_after_class}')}">
+                
 		                <f:if condition="{data._LOCALIZED_UID}">
 		                    <a id="c{data._LOCALIZED_UID}"></a>
 		                </f:if>
@@ -55,7 +71,7 @@
 		                
 		                <f:render section="After" optional="true">
 		                    <f:render partial="DropIn/After/All" arguments="{_all}" />
-		                </f:render>
+		                </f:render> 
 		            </div>
 		          </f:else>
 		       </f:if>

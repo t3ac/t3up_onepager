@@ -1,6 +1,16 @@
 page {
-    typography {
-        h1.padding = 0
-     }
+
+    scss {
+        # t3up - Extensions ____________________________________________
+        # cat = t3up: scss/t3upextensions/211;  type =string; label = t3up_onepager.scss
+        scsst3upOnepager               = EXT:t3up_onepager/Resources/Public/Sass/_t3upOnepager.scss 
+    }
+    
+    color {
+           # cat =t3up: color/pagecolor/11; type =color; label =lightgrey
+           lightgrey                     =#dadada
+        }
+        
 }
-   
+
+

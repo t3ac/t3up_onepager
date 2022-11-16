@@ -26,6 +26,33 @@
 			     <target state="translated">Container</target>
 		    </trans-unit>	
 		    
+		    
+		   /* -- Designs ----------- */
+  
+			<trans-unit id="darkgrey">
+			     <source>Darkgrey background</source>
+			     <target state="translated">Dunkelgrauer Hintergrund</target>
+		    </trans-unit>	
+			<trans-unit id="black">
+			     <source>Black background</source>
+			     <target state="translated">Schwarzer Hintergrund</target>
+		    </trans-unit>  
+            <trans-unit id="grey">
+			     <source>Grey background</source>
+			     <target state="translated">Grauer Hintergrund</target>
+            </trans-unit> 
+			<trans-unit id="white">
+			     <source>White background</source>
+			     <target state="translated">Weißer Hintergrund</target>
+		    </trans-unit>  
+            <trans-unit id="colored">
+			     <source>Colored background</source>
+			     <target state="translated">Farbiger Hintergrund</target>
+            </trans-unit> 
+            <trans-unit id="lightgrey">
+			     <source>Lightgrey background</source>
+			     <target state="translated">Hellgrauer Hintergrund</target>
+            </trans-unit> 
 		</body>
 	</file>
 </xliff>
